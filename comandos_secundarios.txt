@@ -1,0 +1,4 @@
+Esse arquivo contém comandos secundários do git
+
+teste
+

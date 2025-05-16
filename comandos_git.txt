@@ -1,0 +1,42 @@
+-> git init . 
+Cria um repositório no git, na pasta atual
+
+-> git status
+Mosra o status do repositório (de cada arquivo)
+
+### Commit
+-> git add <nome_arquivo>
+Adicona o arquivo para o repositório para ser commitado
+-> git add .
+Adiciona todos os arquivos para o repositório para ser commitado
+-> git add *.txt
+Adiciona todos os arquivos com a extensão .txt para o repositório para ser commitado
+
+-> git commit -m '<mensagem>'
+Faz o commit do que estava para ser commitado
+
+-> git log
+Mostra todo o histórico de commits
+
+-> git diff 
+Mostra as diferenças feitas entre o commit atual e o anterior (alterações feitas)
+
+-> git reset <nome_arquivo>
+Desfaz o commit de um arquivo
+
+
+### Branches
+-> git checkout -b <nome_branch>
+Cria uma nova branch e direciona para ela
+
+-> git branch 
+Mostra todas as branches existentes e sinaliza com um * a branch atual
+
+-> git checkout <nome_branch>
+Direciona para a branch especificada
+
+-> git merge <nome_branch>
+Faz o merge da branch especificada com a branch atual
+
+-> git branch -d <nome_branch>
+Deleta a branch especificada
