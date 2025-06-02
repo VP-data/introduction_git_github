@@ -41,5 +41,5 @@ Faz o merge da branch especificada com a branch atual
 -> git branch -d <nome_branch>
 Deleta a branch especificada
 
--> git fech
+-> git fetch
 Puxar todas a branchs que tenho no repositório do github
